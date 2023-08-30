@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(img/turismo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.OSJ {
+    background-image: url(https://images.unsplash.com/photo-1584499046279-bd273a172451?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1385&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.JujuyRegiones{
+    padding: 15px;
+}
+.tituloOjo {
+    justify-content: center;
+    display: flex;
+}
+
+.tituloOjo img {
+    margin: 10px;
+}
+
+.subOjo {
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.Ojo1 {
+    display: flex;
+}
+
+.botitaJ {
+    margin: 30px;
+}
+
+.botitaJ img {
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.parrafoOjo {
+    margin: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.puna {
+    background-color: rgba(255, 198, 123, 0.993);
+    display: grid;
+    place-items: center;
+    width: 750px;
+    border-radius: 40px;
+}
+
+.ppuna {
+    margin: 30px;
+}
+
+.ppuna img {
+    width: 700px;
+}
+
+.cpuna {
+    font-size: 25px;
+    width: 650px;
+    font-family: sans-serif;
+}
+
+
+.quebra {
+    background-color: rgb(245, 248, 49);
+    display: grid;
+    place-items: center;
+    width: 750px;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+
+.pquebra {
+    margin: 30px;
+}
+
+.pquebra img {
+    width: 700px;
+}
+
+.cquebra {
+    font-size: 25px;
+    width: 650px;
+    font-family: sans-serif;
+}
+
+.r2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.valles {
+    background-color: rgb(192, 248, 248);
+    display: grid;
+    place-items: center;
+    width: 750px;
+    border-radius: 40px;
+}
+
+.pvalles {
+    margin: 30px;
+}
+
+.pvalles img {
+    width: 700px;
+}
+
+.cvalles {
+    font-size: 25px;
+    width: 650px;
+    font-family: sans-serif;
+}
+
+.yungas {
+    background-color: rgb(141, 255, 76);
+    display: grid;
+    place-items: center;
+    width: 750px;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+
+.pyungas {
+    margin: 30px;
+}
+
+.pyungas img {
+    width: 700px;
+}
+
+.cyungas {
+    font-size: 25px;
+    width: 650px;
+    font-family: sans-serif;
+}
+
+.r4 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+
+.turi {
+    display: flex;
+    justify-content: center;
+
+}
+
+.turi img {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.parrafo {
+    display: flex;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkkhaki;
+    line-height: 1.5;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+.parrafo h2 {
+    font-size: 30px;
+    color: maroon;
+}
+
+.atracciones h2 {
+    color: maroon;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 20vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section .turismo {
+    flex: 1;
+    margin: 20px 20px;
+    background-color: darkkhaki;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content-section .turismo img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .turismo h3 {
+    margin: 15px;
+    font-size: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.content-section .turismo p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.content-section .turismo .rating {
+    font-size: 32px;
+    color: #eee;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.content-section .turismo .rating:hover {
+    color: gold;
+}
+
+.CalileguaT {
+    background-image: url(img/Calilegua/fondoC.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+.cerroT {
+    background-image: url(https://previews.123rf.com/images/anibaltrejo/anibaltrejo1409/anibaltrejo140900018/31357853-cerro-de-los-siete-colores-el-cerro-de-los-siete-colores-detr%C3%A1s-del-pueblo-de-purmamarca-en-el.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+.PucaraT {
+    background-image: url(https://www.shallwegohometravel.com/wp-content/uploads/elementor/thumbs/Artboard-8-1-q27eu44zyoj0ojwi1u0acohenvsc7s0rg80nsblq74.jpg);
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+.LagoT {
+    background-image: url(img/Lago/fondoLaguna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+
+.logolaguna {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.img1 {
+    margin-right: 60px;
+    justify-content: center;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.contenidoP {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.image {
+    display: flex;
+    padding: 0px;
+    width: 600px;
+    margin: 40px;
+
+}
+
+.imgp {
+    width: 650px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.contenidoP .lagop {
+
+    padding: 0px;
+    border-left: 60px;
+    width: auto;
+    margin: 30px;
+}
+
+.lagop p {
+    justify-content: center;
+
+    margin-right: 0px;
+    margin: 0px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.segundop h1 {
+    font-size: 28px;
+}
+
+.segundop .items {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.contenidoP .calip {
+    background-color: rgb(115, 224, 81);
+    padding: 0px;
+    border-left: 60px;
+    width: auto;
+    margin: 30px;
+}
+
+.calip p {
+    justify-content: center;
+
+    margin-right: 0px;
+    margin: 0px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.contenidoP .pucaP {
+    background-color: rgb(236, 236, 150);
+    padding: 0px;
+    border-left: 60px;
+    width: auto;
+    margin: 30px;
+}
+
+.pucaP p {
+    justify-content: center;
+
+    margin-right: 0px;
+    margin: 0px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.contenidoP .cerroP {
+    background-color: rgba(250, 178, 84, 0.959);
+    padding: 0px;
+    border-left: 60px;
+    width: auto;
+    margin: 30px;
+}
+
+.cerroP p {
+    justify-content: center;
+
+    margin-right: 0px;
+    margin: 0px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+.animation {
+    padding: 80px;
+}
